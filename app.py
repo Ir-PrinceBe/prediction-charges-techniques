@@ -125,7 +125,7 @@ if page == "🏠 Accueil":
     st.divider()
 
     # Présentation des principales fonctionnalités
-    st.subheader("🎯 Fonctionnalités")
+    st.subheader("⚙️ Fonctionnalités")
 
     # Création de trois colonnes pour présenter
     # les trois principales fonctionnalités
@@ -134,7 +134,7 @@ if page == "🏠 Accueil":
     with col1:
         st.info(
             """
-            ### 🎯 Prédiction personnalisée
+            ### 🔮 Prédiction personnalisée
 
             Saisissez manuellement les valeurs des indicateurs
             afin d'obtenir une estimation de la charge technique.
