@@ -78,7 +78,7 @@ page = st.sidebar.radio(
     "Navigation",
     [
         "🏠 Accueil",
-        "🎯 Prédiction personnalisée",
+        "🔮 Prédiction personnalisée",
         "📈 Prévisions 1 à 5 ans",
         "📊 Performance du modèle",
         "ℹ️ À propos"
@@ -197,9 +197,9 @@ if page == "🏠 Accueil":
 # PAGE 2 : PRÉDICTION PERSONNALISÉE
 # =====================================================
 
-elif page == "🎯 Prédiction personnalisée":
+elif page == "🔮 Prédiction personnalisée":
 
-    st.title("🎯 Prédiction personnalisée")
+    st.title("🔮 Prédiction personnalisée")
 
     st.write(
         """
